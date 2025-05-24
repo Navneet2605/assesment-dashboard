@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-   <HomeScreen/>
-   <div>
-   <p className="text-red-500">Red Text</p>
-   </div>
+    <div className="rounded-tr-3xl rounded-br-3xl">
+      <HomeScreen/>
+    </div>
+   
     </>
   )
 }

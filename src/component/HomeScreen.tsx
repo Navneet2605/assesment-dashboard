@@ -1,11 +1,13 @@
 import React from 'react'
+import Sidebar from './Sidebar'
 
 const HomeScreen = () => {
   return (
     <>
-   <div className="flex items-center justify-center h-screen bg-gray-100 text-red-500 ">
-  <div className="p-4 bg-white rounded shadow text-blue-500">Centered Both</div>
-</div>
+    <div className="rounded-tr-3xl rounded-br-3xl">
+    <Sidebar/>
+    </div>
+  
     </>
   )
 }
