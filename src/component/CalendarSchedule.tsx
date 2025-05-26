@@ -50,7 +50,7 @@ const calendarData = [
 
 const timeSlots = [
   ["10:00", "11:00", "12:00"],
-  ["08:00", "09:00", "10:00"], // Highlight 09:00
+  ["08:00", "09:00", "10:00"], 
   ["12:00", "—", "13:00"],
   ["10:00", "11:00", "—"],
   ["14:00", "—", "16:00"],
@@ -61,7 +61,6 @@ const timeSlots = [
 const CalendarSchedule = () => {
   return (
     <div className="w-full max-w-3/8 mx-auto p-4 space-y-4 h-screen overflow-y-auto bg-[#f5f7fa] shadow-lg rounded-3xl">
-      {/* Header */}
       <div className="flex justify-end items-center">
         <div className="flex items-center space-x-2">
           <div className="w-14 h-14 rounded-2xl bg-cyan-400 flex items-center justify-center">
@@ -74,10 +73,8 @@ const CalendarSchedule = () => {
           </button>
         </div>
       </div>
-
-      {/* Month */}
       <div className="flex justify-between items-center">
-        <div className="text-sm text-indigo-900">October 2021</div>
+        <div className="text-sm text-indigo-900 font-bold">October 2021</div>
         <div className="flex space-x-2">
           <button className="w-8 h-8 flex items-center justify-center rounded-full ">
             ←
@@ -87,8 +84,6 @@ const CalendarSchedule = () => {
           </button>
         </div>
       </div>
-
-      {/* Calendar */}
       <div className="grid grid-cols-7 gap-2 text-center text-xs text-indigo-900 ">
         {calendarData.map(({ day, date, highlight }, idx) => (
           <div
@@ -132,8 +127,6 @@ const CalendarSchedule = () => {
           </div>
         ))}
       </div>
-
-      {/* Upcoming Schedule */}
       <div className="mt-6">
         <h3 className="font-bold text-md text-indigo-900">
           The Upcoming Schedule
