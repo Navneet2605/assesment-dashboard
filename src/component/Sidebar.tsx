@@ -43,7 +43,7 @@ const Sidebar: React.FC = () => {
   const [activeLabel, setActiveLabel] = useState<string>("Dashboard");
 // console.log(activeLabel)  
   return (
-    <aside className="w-64 h-screen bg-[#f9fbfc] shadow-md flex flex-col justify-between p-6 rounded-tr-3xl rounded-br-3xl">
+    <aside className="w-64 h-screen bg-[#f5f7fa] shadow-md flex flex-col justify-between p-6 rounded-tr-3xl rounded-br-3xl">
       <div className="ml-6">
         <h1 className="text-2xl font-bold mb-8">
           <span className="text-cyan-500">Health</span>
