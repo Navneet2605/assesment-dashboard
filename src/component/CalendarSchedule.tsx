@@ -65,7 +65,7 @@ const CalendarSchedule = () => {
         <div className="flex items-center space-x-2">
           <div className="w-14 h-14 rounded-2xl bg-cyan-400 flex items-center justify-center">
             <span role="img" aria-label="avatar">
-              <img src="src/assets/avatar.png" alt="" />
+              <img src="https://i.postimg.cc/nh8LXKzr/avatar.png" alt="" />
             </span>
           </div>
           <button className="w-14 h-14 flex items-center justify-center rounded-2xl bg-blue-800 text-white text-4xl">

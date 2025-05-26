@@ -57,14 +57,16 @@ const HomeScreen = () => {
                   </li>
                 ))}
               </ul>
-            )}
+            )} 
+            {/* https://ibb.co/BVk8BqbJ
+https://ibb.co/HfGHrwXs */}
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-6 mt-6">
           <div className="flex flex-col gap-6 w-full lg:w-200">
             <div className="relative bg-gray-100 rounded-3xl shadow-lg p-6 flex justify-center items-center h-[400px]">
               <img
-                src="../assets/humanbody.png"
+                src="https://i.postimg.cc/6pdpn720/humanbody.png"
                 alt="Human Body"
                 className="h-full object-contain"
               />
