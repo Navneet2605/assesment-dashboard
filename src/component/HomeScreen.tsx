@@ -121,7 +121,7 @@ const HomeScreen = () => {
                 </div>
               </div>
             ))}
-            <div className="text-right text-indigo-600 text-sm cursor-pointer hover:underline">
+            <div className="text-right text-indigo-900 text-sm cursor-pointer hover:underline">
               Details →
             </div>
           </div>
