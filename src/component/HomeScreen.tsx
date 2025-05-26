@@ -1,5 +1,5 @@
 import Sidebar from "./Sidebar";
-import React, { useState } from "react";
+import{ useState } from "react";
 import {
   MdSearch,
   MdNotificationsNone,
