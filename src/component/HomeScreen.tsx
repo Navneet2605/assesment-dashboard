@@ -32,7 +32,6 @@ const HomeScreen = () => {
           </div>
         </div>
 
-        {/* Dashboard Header */}
         <div className="flex justify-between items-center mt-8">
           <h2 className="text-indigo-900 text-2xl font-bold">Dashboard</h2>
           <div className="relative inline-block text-left">
@@ -65,7 +64,7 @@ const HomeScreen = () => {
           <div className="flex flex-col gap-6 w-full lg:w-200">
             <div className="relative bg-gray-100 rounded-3xl shadow-lg p-6 flex justify-center items-center h-[400px]">
               <img
-                src="src/assets/humanbody.png"
+                src="../assets/humanbody.png"
                 alt="Human Body"
                 className="h-full object-contain"
               />
